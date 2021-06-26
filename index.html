@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-left">
+            <div  class="form form-signin">
+                <h3 class="title">Sign in</h3>
+                <form action="">
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="password">
+                    </div>
+                    <div class="button"><button class="btn btn-submit" type="submit">Login</button></div>
+                </form>
+                <p class="social-text">Or sign in with social platforms</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div style="" class="side-text side-text-signin">
+                <h4>New Here?</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi at ducimus eaque magnam modi ut veniam dolorem, quos laborum aperiam.</p>
+                <button id="signin-mode-btn" class="btn btn-side-text">Login</button>
+            </div>
+        </div>
+        <!-- Right Panel -->
+        <div class="panel panel-right">
+            <div class="side-text side-text-signup">
+                <h4>New Here?</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi at ducimus eaque magnam modi ut veniam dolorem, quos laborum aperiam.</p>
+                <button id="signup-mode-btn" style="display: block;" class="btn btn-side-text">Sign Up</button>
+                <img src="svg/login.svg" alt="" height="350">
+            </div>
+            <div style="" class="form form-signup">
+                <h3 class="title">Sign up</h3>
+                <form action="">
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="password">
+                    </div>
+                    <div class="button"><button id="signup-btn" class="btn btn-submit" type="submit">Sign Up</button></div>
+                </form>
+                <p class="social-text">Or sign up with social platforms</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-support">
+        <h1>This website is not yet compatible with small screen devices.</h1>
+        <p>If you are a developer you can check out <a href="#">Github</a> for contribution.</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
