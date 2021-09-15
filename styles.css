@@ -181,11 +181,20 @@ body {
 
 .signup-mode .form-signin {
     transform: translate(-800px);
+    -webkit-transform: translate(-800px);
+    -moz-transform: translate(-800px);
+    -ms-transform: translate(-800px);
+    -o-transform: translate(-800px);
 }
 
 .signup-mode .side-text-signup {
     transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
 }
+
 
 @media (max-width: 1000px){
     .container {
